@@ -9,9 +9,9 @@ namespace SandwichClub.Api.Repositories
             : base(options)
         { }
 
-         public DbSet<Week> Weeks { get; set; }
-         public DbSet<User> Users { get; set; }
-         public DbSet<WeekUserLink> WeekUserLinks { get; set; }
+         //public DbSet<Week> Weeks { get; set; }
+         //public DbSet<User> Users { get; set; }
+         //public DbSet<WeekUserLink> WeekUserLinks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

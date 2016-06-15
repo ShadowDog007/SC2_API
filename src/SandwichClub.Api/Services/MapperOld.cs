@@ -3,7 +3,7 @@ using SandwichClub.Api.Repositories.Models;
 
 namespace SandwichClub.Api.Services
 {
-    public static class Mapper
+    public static class MapperOld
     {
         public static WeekDto ToDto(this Week week) {
             return new WeekDto {
